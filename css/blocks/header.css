@@ -1,40 +1,17 @@
-/* .header__logo-wrapper {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 54px;
-}
-.header__spisok {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  height: 24px;
-  width: 582px;
-}
-.header__ssilka-div1 {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-}
-.header__knopka-wrapper {
-  width: 160px;
-  height: 56px;
-  background: #ffc814;
-  border-radius: 4px;
-}
-.header__li {
-  margin: 15px;
-
-} */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 27px;
+  margin-top: 10px;
 }
 .header__logo-wrapper {
-  margin-left: 315px;
+  margin-left: 150px;
   margin-right: 333px;
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: white;
 }
 .header__menu {
 }
@@ -43,26 +20,33 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 38px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  height: 24px;
+  width: 582px;
 }
 .header__li {
 }
-.header__ssilka1 {
-}
-.header__ssilka2 {
-}
-.header__ssilka3 {
-}
-.header__ssilka4 {
-}
-.header__ssilka5 {
-}
-.header__ssilka6 {
-}
-.header__ssilka7 {
-}
-.header__ssilka8 {
+.header__ssilka {
+  color: white;
+  text-decoration: none;
 }
 .header__knopka-wrapper {
 }
 .header__ssilka-div1 {
+  color: black;
+  text-decoration: none;
+  margin-right: 150px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 160px;
+  height: 56px;
+  background: #ffc814;
+  border-radius: 4px;
+  border: 0px;
 }
