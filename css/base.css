@@ -10,49 +10,25 @@ body {
   max-width: 1920px;
   background: url(/images/BG.png);
   background-repeat: no-repeat;
+  border-radius: 4px 4px 0px 0px;
 }
-.body__big-text {
-  color: white;
-  margin-top: 180px;
-  margin-left: 150px;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 76px;
-  width: 488px;
-  height: 228px;
-}
-.body__small-text {
-  color: white;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  width: 563px;
-  height: 96.79px;
-  margin-left: 150px;
-}
-.body__ssilka-text1 {
-  margin-left: 150px;
-  color: black;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
+.knopka {
   width: 160px;
   height: 56px;
   background: #ffc814;
   border-radius: 4px;
   border: 0px;
-}
-.body__ssilka-text2 {
   color: black;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  width: 160px;
-  height: 56px;
-  background: white;
-  border-radius: 4px;
-  border: 0px;
-  margin-left: 20px;
+}
+.flag {
+  width: 165px;
+  height: 55px;
+  background: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  margin-right: 70px;
+  border: 0ch;
 }
