@@ -32,39 +32,24 @@
   align-items: center;
   margin-top: 170px;
 }
-.body__hotel {
-}
-.body__flight {
-}
-.body__car {
-}
-.body__ship {
-}
 .body__pole {
   max-width: 1450px;
-  height: 162px;
+  height: 120px;
   background: #ffffff;
   box-shadow: 0px 6px 24px #e4e2ee;
 }
 .body__text-centr {
   display: flex;
-  justify-content: space-between;
 }
 input {
   width: 170px;
+  border: 0ch;
+  box-shadow: 0px 6px 24px #e4e2ee;
 }
-.body__text1 {
-  margin: 30px;
-}
-.body__text2 {
-  margin: 30px;
-}
-.body__text3 {
-  margin: 30px;
-}
-.body__text4 {
-  margin: 30px;
-}
+.body__text1,
+.body__text2,
+.body__text3,
+.body__text4,
 .body__text5 {
   margin: 30px;
 }
@@ -73,5 +58,5 @@ input {
   margin-top: 58px;
 }
 .body__ssilka {
-  margin-left: 85%;
+  margin-top: 35px;
 }

@@ -32,3 +32,6 @@ body {
   margin-right: 70px;
   border: 0ch;
 }
+.flag:focus {
+  background: #ffc814;
+}

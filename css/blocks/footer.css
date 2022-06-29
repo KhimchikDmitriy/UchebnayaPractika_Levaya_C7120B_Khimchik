@@ -1,0 +1,17 @@
+.footer {
+  /* display: flex; */
+}
+.footer__bg {
+  width: 1390px;
+  height: 310px;
+  font-weight: 600;
+  font-size: 430px;
+  line-height: 300px;
+  color: rgba(244, 246, 250, 0.8);
+  margin-left: 170px;
+}
+.footer__img1 {
+  width: 450px;
+  height: 550px;
+  background: url(/images/primer1.png);
+}
