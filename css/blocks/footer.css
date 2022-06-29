@@ -79,6 +79,7 @@
 .footer__stolb {
   display: flex;
   flex-direction: row;
+  margin-top: 25px;
 }
 .footer__stolb1 {
   display: flex;

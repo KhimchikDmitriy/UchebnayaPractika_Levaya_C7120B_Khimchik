@@ -45,6 +45,17 @@ input {
   width: 170px;
   border: 0ch;
   box-shadow: 0px 6px 24px #e4e2ee;
+  transition: 1s;
+}
+input:hover {
+  transition: 1s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+input:active {
+  transition: 0.5s;
+  transform: translateY(2px);
+  text-shadow: none;
 }
 .body__text1,
 .body__text2,
