@@ -1,17 +1,110 @@
 .footer {
-  /* display: flex; */
+  display: flex;
 }
 .footer__bg {
+  position: absolute;
   width: 1390px;
   height: 310px;
   font-weight: 600;
   font-size: 430px;
-  line-height: 300px;
+  line-height: 280px;
   color: rgba(244, 246, 250, 0.8);
   margin-left: 170px;
+  z-index: -1;
 }
 .footer__img1 {
-  width: 450px;
-  height: 550px;
-  background: url(/images/primer1.png);
+  position: relative;
+  left: 170px;
+  top: 110px;
+}
+.footer__img2 {
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+}
+.footer__img3 {
+  position: relative;
+  left: 1470px;
+  bottom: 700px;
+}
+.footer__AboutUs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  margin-top: 155px;
+}
+.footer__small-text {
+  width: 91px;
+  height: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #ffc814;
+}
+.footer__big-text {
+  width: 479px;
+  height: 97px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #1f3347;
+}
+.footer__text {
+  width: 521px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9da1b4;
+}
+.footer__spisok {
+  width: 496px;
+  height: 108px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #9da1b4;
+  display: flex;
+  flex-direction: column;
+}
+.footer__galki {
+  width: 14px;
+  height: 86px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.footer__sp {
+  display: flex;
+  flex-direction: row;
+}
+.footer__stolb {
+  display: flex;
+  flex-direction: row;
+}
+.footer__stolb1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 95px;
+}
+.footer__stolb-dig-text {
+  height: 28px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  color: #ffc814;
+}
+.footer__stolb-small-text {
+  width: 88px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9da1b4;
+}
+.footer__ssilka {
+  margin-top: 50px;
+  font-family: "Circular Std";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1f3347;
 }
