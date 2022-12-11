@@ -2,16 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
-  column-gap: 35px;
+  /* column-gap: 35px; */
+  /* height: 80px; */
+  width: 100%;
+  background-color: rgb(68, 68, 255);
 }
 .header__logo-wrapper {
   margin-left: 150px;
   font-weight: 600;
   font-size: 36px;
   line-height: 54px;
-  color: white;
   transition: 5s;
+  color: black;
 }
 .header__logo-wrapper:hover {
   transition: 5s;
@@ -22,14 +24,14 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 38px;
-  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   height: 24px;
-  max-width: 582px;
+  margin-top: 25px;
 }
 .header__li {
   transition: 1s;
+  color: white;
 }
 .header__li:hover {
   transition: 0.5s;
@@ -43,7 +45,4 @@
 .header__ssilka {
   color: white;
   text-decoration: none;
-}
-.header__ssilka-div1 {
-  margin-left: 50px;
 }
